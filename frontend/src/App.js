@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 import './App.css'; // Ensure your CSS file is imported
 
@@ -159,3 +160,18 @@ const Pagination = ({ emailsPerPage, totalEmails, paginate, currentPage }) => {
 };
 
 export default EmailsDisplay;
+=======
+// src/App.js
+import React from 'react';
+import InternshipList from './components/InternshipList';
+
+function App() {
+    return (
+        <div className="App">
+            <InternshipList />
+        </div>
+    );
+}
+
+export default App;
+>>>>>>> origin/aman
