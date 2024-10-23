@@ -1,0 +1,162 @@
+/* Navbar styling */
+.navbar {
+  position: fixed; /* Makes the navbar fixed at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 10px;
+  z-index: 1000; /* Ensures the navbar stays above other elements */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Navbar Links */
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 15px; /* Add padding for a better hover area */
+  transition: background-color 0.9s ease, color 0.9s ease, transform 0.9s ease; /* Smooth transition */
+  border-radius: 4px; /* Optional: rounded corners */
+  display: inline-block; /* Ensure the element is treated as a block for transform */
+}
+
+.navbar-links a:hover {
+  transform: translateY(-3px) scale(1.1); /* Move up and scale slightly */
+  text-decoration: none; /* No underline on hover */
+}
+
+
+/* Email container */
+.email-container {
+  padding: 20px;
+}
+
+.email-card {
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  unicode-bidi: isolate;
+}
+
+/* Job Item Box styling */
+.job-item-box {
+  background-color: #e6f3ff;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; 
+}
+
+.job-title-box h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+ .job-url-box {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space between the label and the value */
+  align-items: center; /* Vertically center align items */
+  margin: 5px 0; /* Add some margin for spacing */
+}
+ .job-url-box p {
+  margin: 0;
+  font-size: 0.9rem;
+  flex: 1; /* Allow flex to grow and take available space */
+}
+.job-location-box {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center align items */
+  margin: 5px 0; /* Add some margin for spacing */
+}
+
+.job-location-box p {
+  margin: 0; /* Remove default margin */
+  font-size: 0.9rem; /* Font size for the location text */
+  overflow: hidden; /* Prevent text overflow */
+  text-overflow: ellipsis; /* Show ellipsis for overflow */
+  white-space: nowrap; /* Prevent text wrapping */
+  flex: 1; /* Allow this to grow if necessary */
+}
+
+/* Optional: Add a fixed width for the location text for consistency */
+.job-location-box .location-label {
+  font-weight: bold; /* Make label bold */
+  margin-right: 10px; /* Add some space after label */
+}
+
+
+.job-url-box a {
+  color: #e6f3ff;
+  text-decoration: none;
+}
+
+.job-url-box a:hover {
+  text-decoration: underline;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  color: white;
+}
+
+.page-link {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.page-link:hover {
+  background-color: #e0e0e0;
+}
+
+/* Contact section */
+.contact-section {
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin-top: 40px;
+}
+
+/* Styling the "Visit Site" button */
+.visit-site-button {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fdfdfd;
+  background-color: #e0e0e0;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.visit-site-button:hover {
+  background-color: #78a2ce; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slight upward movement on hover */
+}
