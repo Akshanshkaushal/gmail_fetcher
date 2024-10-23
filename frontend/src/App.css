@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #333;
+  background-color: #e6f3ff;
   padding: 10px;
   z-index: 1000; /* Ensures the navbar stays above other elements */
 }
@@ -21,8 +21,8 @@
 
 /* Navbar Links */
 .navbar-links a {
-  color: white;
-  text-decoration: none;
+  color: rgb(12, 11, 11); 
+  text-decoration:solid;
   font-size: 1.2rem;
   padding: 10px 15px; /* Add padding for a better hover area */
   transition: background-color 0.9s ease, color 0.9s ease, transform 0.9s ease; /* Smooth transition */
@@ -101,7 +101,6 @@
 
 
 .job-url-box a {
-  color: #e6f3ff;
   text-decoration: none;
 }
 
